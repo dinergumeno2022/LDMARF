@@ -1,0 +1,11 @@
+Sistema operacional do raspberry pi OpenWRT, que basicamente consiste num sistema operacional para roteador, baseado em linux que oferece interface web
+para configurações e administração.
+Instalando o openwrt:
+  seguir os passos em: 
+    https://openwrt.org/toh/raspberry_pi_foundation/raspberry_pi
+
+Depois de instalar o openwrt, devem ser instalados os seguintes programas para que seja possível monitorar a potência que o sinal do dispositivo móvel chega
+até o access point (AP):
+1- opkg update #atualizar o repositório de aplicativos
+2- opkg install wireless tools
+3- opkg install nano
